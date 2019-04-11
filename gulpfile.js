@@ -28,6 +28,7 @@ function watching() {
     // watch any html file on the root level using the gulp method called 'watch'
     gulp.watch("*.css", reloadBrowserSync);
      gulp.watch("*.html", reloadBrowserSync);
+     gulp.watch("*.js", reloadBrowserSync);
 
 
 }
