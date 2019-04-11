@@ -1,0 +1,23 @@
+{
+  "name": "datavisualisation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schmilco/datavisualisation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schmilco/datavisualisation/issues"
+  },
+  "homepage": "https://github.com/schmilco/datavisualisation#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0"
+  }
+}
