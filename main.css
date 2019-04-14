@@ -1,4 +1,4 @@
-#bg-image {
+#bg-image .bg-image {
 	background-image: url("img/bg.jpg");
 	padding-bottom: 50px;
 }
@@ -141,15 +141,24 @@
 }
 
 .collection-container{
-	padding: 5px;
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: space-between;
 }
 
 .collection-img{
-	width: 500px;
+	width: 460px;
 	height: 390px;
 	padding: 10px;
-	display: flex;
-  	flex-wrap: wrap;
 }
+
+
+
+.stats {
+	font-family: helvetica;
+	color: #C3722B;
+
+}
+
 
 
