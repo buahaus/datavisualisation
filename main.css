@@ -161,4 +161,52 @@
 }
 
 
+.about-container {
+	border-top: 1px solid #C3722B;
+	border-bottom: 1px solid #C3722B;
+	padding: 60px;
+}
+
+.user-image{
+	width: 350px;
+	height: 350px;
+	border: 3px solid black;
+	margin: auto;
+	margin-bottom: 50px;
+	padding: 15px;
+	border-radius: 50%;
+}
+
+.stats-area {
+	border: 1px solid #C3722B;
+	padding: 20px;
+	margin: auto;
+	width: 70%;
+	font-size: 40px;
+	font-family: helvetica;
+	text-align: center;
+	margin-bottom:50px;
+}
+
+.company-desc{
+	border: 1px solid #C3722B;
+	padding: 20px;
+	margin: auto;
+	width: 95%;
+	font-size: 30px;
+	font-family: helvetica;
+	text-align: center;
+}
+
+.link-style{
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
 
