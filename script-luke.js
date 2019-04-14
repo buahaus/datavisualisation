@@ -2,7 +2,7 @@
 var key = '9AwInosQykaf21iKK6bM2H24oL5BJ1Wa';
 
 
-var behanceUser = 'hello6e2d'; 				// example - Manuel from Yoobee Creative Catchup #3 | ellastoner370c
+var behanceUser = 'lukemelloy'; 				// example - Manuel from Yoobee Creative Catchup #3 | ellastoner370c
 
 var urlProjects = 'https://api.behance.net/v2/users/' + behanceUser + '/projects?client_id=' + key;
 
