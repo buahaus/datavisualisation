@@ -7,6 +7,7 @@ var urlProjects = 'https://api.behance.net/v2/users/' + behanceUser + '/projects
 
 
 $(function(){
+	 
 	$.ajax({
 
 			url: urlProjects,
