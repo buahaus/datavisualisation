@@ -14,7 +14,7 @@ $(function() {
     // var urlProject = 'https://api.behance.net/v2/nickbeelde3aa0/' + id + '/projects?client_id=' + key;
     var urlProject = 'http://www.behance.net/v2/projects/' + id + '?api_key=' + key;
     // var urlProject = 'https://behance-mock-api.glitch.me/api/projects';
- 
+
 
     // AJAX request
     $.ajax({
