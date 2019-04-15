@@ -21,7 +21,7 @@ $(function(){
 
 				// https://www.behance.net/dev/api/endpoints/1
 				projects.forEach(function(project) {
-					$('<div class="content-background"><div class="main-content"><img src ="'+ project.covers.original +'" alt="logo" class="content-item" id="content-image"><p class="content-desc">'+ project.name + '</p></div></div>').appendTo('.main-container');
+					$('<div class="content-background"><a href="nicholas-collection.html?id=' + project.id + '"><div class="main-content"><img src ="'+ project.covers.original +'" alt="logo" class="content-item" id="content-image"><p class="content-desc">'+ project.name + '</p></div></a></div>').appendTo('.main-container');
 				});
 			},
 
