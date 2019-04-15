@@ -1,10 +1,9 @@
-// var key = 'SCJnOBwjJqgpwxIybOHvs0cUt0XRrydH';	// Your unique key - https://www.behance.net/dev
-var key = 'IVYyhF9w3EpIfe27nf09ehAcaywGzpM0';
 
 var behanceUser = 'nickbeelde3aa0'; 				// example - Manuel from Yoobee Creative Catchup #3 | ellastoner370c
 
 var urlProjects = 'https://api.behance.net/v2/users/' + behanceUser + '/projects?client_id=' + key;
 // var urlProjects = 'https://behance-mock-api.glitch.me/api/users';
+
 
 $(function(){
 
@@ -12,7 +11,6 @@ $(function(){
 
 			url: urlProjects,
 			dataType: 'jsonp',
-
 
 			// when the ajax request is complete do all of these things
 			success: function(res) {
@@ -23,7 +21,7 @@ $(function(){
 
 				// https://www.behance.net/dev/api/endpoints/1
 				projects.forEach(function(project) {
-					$('<div class="content-background"><div class="main-content"><img src ="'+ project.covers.original +'" alt="logo" class="content-item" id="content-image"><p class="content-desc">'+ project.name + '</p></div></div>').appendTo('.main-container');
+					$('<div class="content-background"><a href="collection.html?id=' + project.id + '"><div class="main-content"><img src ="'+ project.covers.original +'" alt="logo" class="content-item" id="content-image"><p class="content-desc">'+ project.name + '</p></div></a></div>').appendTo('.main-container');
 				});
 			},
 

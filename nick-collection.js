@@ -1,9 +1,4 @@
-// var key = 'SCJnOBwjJqgpwxIybOHvs0cUt0XRrydH';	// Your unique key - https://www.behance.net/dev
-// var key = '9AwInosQykaf21iKK6bM2H24oL5BJ1Wa';
-var key = 'IVYyhF9w3EpIfe27nf09ehAcaywGzpM0';
 var user = 'nickbeelde3aa0';
-
-
 
 
 
@@ -17,8 +12,8 @@ $(function() {
     var params = pageURL.searchParams;
     var id = params.get('id');
     // var urlProject = 'https://api.behance.net/v2/nickbeelde3aa0/' + id + '/projects?client_id=' + key;
-    // var urlProject = 'http://www.behance.net/v2/projects/' + id + '?api_key=' + key;
-    var urlProject = 'https://behance-mock-api.glitch.me/api/projects';
+    var urlProject = 'http://www.behance.net/v2/projects/' + id + '?api_key=' + key;
+    // var urlProject = 'https://behance-mock-api.glitch.me/api/projects';
  
 
     // AJAX request
