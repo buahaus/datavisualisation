@@ -1,7 +1,9 @@
 // Icon Reference:
 // https://www.flaticon.com/packs/wildlife-14
 
-
+function goBack() {
+    window.history.back();
+}
 
 $(function(){
 
@@ -65,9 +67,9 @@ $(function(){
 
         var zoomLevel = map.getZoom();
 
-        if (zoomLevel == 20) {
+        if (zoomLevel == 18) {
             $('#center').hide();
-            console.log('zoom level 20');
+            console.log('zoom level 18');
             console.log(map.getZoom());
             $('#in').addClass('disabled');
         } else {
